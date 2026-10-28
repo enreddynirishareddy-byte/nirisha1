@@ -9,7 +9,7 @@ public class Main {
 
     static final String URL = "jdbc:mysql://localhost:3306/jdbc";
     static final String USER = "root";
-    static final String PASSWORD = "root";
+    static final String PASSWORD = "my_password";
 
     public static Connection getConnection() throws Exception {
         return DriverManager.getConnection(URL, USER, PASSWORD);
